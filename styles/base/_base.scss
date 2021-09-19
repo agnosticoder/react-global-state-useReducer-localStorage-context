@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Roboto";
+    font-size: $m-size;
+    background-color: $first;
+    color: $third;
+}
+
+.body-div{
+    height: 100vh;
+}
+
+.body-dark{
+    // transition: 1s all ease;
+    background-color: $third;
+    color: $forth;
+
+    button {
+        // transition: 1s all ease;
+        color: $forth;
+        background-color: #444;
+    }
+}
+
+
+button{
+    cursor: pointer;
+
+    &:disabled{
+        cursor: default;
+    }
+}

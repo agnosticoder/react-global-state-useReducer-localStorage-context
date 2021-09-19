@@ -1,0 +1,29 @@
+@import '../base/settings';
+
+.header-dark {
+    color: $forth;
+    background-color: $lightthird;
+    border-bottom: 1px solid $second;
+    
+    a {
+        color: $fifth;
+        text-decoration: underline;
+        // transition: .2s all ease;
+
+        &:hover{
+            color: rgba($fifth, .3);
+        }
+    }
+}
+
+.body-dark{
+    // transition: 1s all ease;
+    background-color: $third;
+    color: $forth;
+
+    button {
+        // transition: 1s all ease;
+        color: $forth;
+        background-color: #444;
+    }
+}
